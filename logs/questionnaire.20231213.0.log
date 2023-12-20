@@ -1,0 +1,303 @@
+09:21:49.685 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 20532 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+09:21:49.691 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+09:21:49.837 INFO  [restartedMain][DevToolsPropertyDefaultsPostProcessor.logTo(DeferredLog.java:255)] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:21:49.838 INFO  [restartedMain][DevToolsPropertyDefaultsPostProcessor.logTo(DeferredLog.java:255)] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:21:51.302 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:21:51.473 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 134 ms. Found 3 JPA repository interfaces.
+09:21:53.357 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+09:21:53.383 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+09:21:53.389 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+09:21:53.390 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+09:21:53.587 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+09:21:53.588 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 3720 ms
+09:21:53.829 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+09:21:54.272 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+09:21:54.737 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+09:21:54.879 INFO  [restartedMain][Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.6.15.Final
+09:21:55.170 INFO  [restartedMain][Version.<clinit>(JavaReflectionManager.java:56)] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:21:55.404 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:21:55.815 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+09:21:55.815 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+09:21:56.241 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:21:56.256 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:21:57.281 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:21:57.770 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+09:21:57.786 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+09:21:57.830 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+09:21:57.849 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 8.983 seconds (JVM running for 10.382)
+09:22:03.516 INFO  [http-nio-8081-exec-1][[/].log(DirectJDKLog.java:173)] Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:22:03.518 INFO  [http-nio-8081-exec-1][DispatcherServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+09:22:03.524 INFO  [http-nio-8081-exec-1][DispatcherServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 5 ms
+10:02:04.196 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 23820 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+10:02:04.201 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+10:02:04.340 INFO  [restartedMain][DevToolsPropertyDefaultsPostProcessor.logTo(DeferredLog.java:255)] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:02:04.340 INFO  [restartedMain][DevToolsPropertyDefaultsPostProcessor.logTo(DeferredLog.java:255)] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:02:05.360 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:02:05.478 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+10:02:07.176 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+10:02:07.205 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+10:02:07.208 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+10:02:07.209 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+10:02:07.423 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+10:02:07.424 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 3081 ms
+10:02:07.646 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+10:02:07.977 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+10:02:08.335 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+10:02:08.408 INFO  [restartedMain][Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.6.15.Final
+10:02:08.649 INFO  [restartedMain][Version.<clinit>(JavaReflectionManager.java:56)] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:02:08.796 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10:02:09.148 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+10:02:09.148 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+10:02:09.642 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:02:09.656 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:02:10.627 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:02:11.093 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+10:02:11.116 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+10:02:11.162 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+10:02:11.177 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 7.788 seconds (JVM running for 9.051)
+10:02:20.062 INFO  [http-nio-8081-exec-1][[/].log(DirectJDKLog.java:173)] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:02:20.065 INFO  [http-nio-8081-exec-1][DispatcherServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+10:02:20.065 INFO  [http-nio-8081-exec-1][DispatcherServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 0 ms
+10:34:39.076 WARN  [http-nio-8081-exec-8][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 63] (through reference chain: com.example.questionnaire.entity.User["ans"])]
+10:35:24.511 WARN  [http-nio-8081-exec-1][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 71] (through reference chain: com.example.questionnaire.entity.User["ans"])]
+10:40:23.020 WARN  [http-nio-8081-exec-10][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 71] (through reference chain: com.example.questionnaire.entity.User["ans"])]
+11:36:56.658 WARN  [HikariPool-1 housekeeper][HikariPool.run(HikariPool.java:788)] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m17s449ms626µs900ns).
+12:14:58.240 WARN  [http-nio-8081-exec-3][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 61] (through reference chain: com.example.questionnaire.entity.User["ans"])]
+13:18:24.403 WARN  [HikariPool-1 housekeeper][HikariPool.run(HikariPool.java:788)] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m52s388ms838µs500ns).
+13:46:16.042 WARN  [http-nio-8081-exec-5][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 55] (through reference chain: com.example.questionnaire.entity.User["ans"])]
+13:46:16.042 WARN  [http-nio-8081-exec-9][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 55] (through reference chain: com.example.questionnaire.entity.User["ans"])]
+13:46:16.146 WARN  [http-nio-8081-exec-6][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 55] (through reference chain: com.example.questionnaire.entity.User["ans"])]
+14:48:32.111 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 17676 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+14:48:32.124 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+14:48:32.197 INFO  [restartedMain][DevToolsPropertyDefaultsPostProcessor.logTo(DeferredLog.java:255)] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:48:32.198 INFO  [restartedMain][DevToolsPropertyDefaultsPostProcessor.logTo(DeferredLog.java:255)] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:48:33.082 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:48:33.189 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+14:48:34.653 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+14:48:34.678 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+14:48:34.683 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+14:48:34.684 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+14:48:34.895 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+14:48:34.895 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 2696 ms
+14:48:35.169 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+14:48:35.625 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+14:48:36.113 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+14:48:36.288 INFO  [restartedMain][Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.6.15.Final
+14:48:36.694 INFO  [restartedMain][Version.<clinit>(JavaReflectionManager.java:56)] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:48:37.001 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:48:37.567 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+14:48:37.567 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+14:48:38.196 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:48:38.212 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:48:39.479 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:48:40.117 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+14:48:40.143 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+14:48:40.190 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+14:48:40.214 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 8.585 seconds (JVM running for 9.671)
+14:48:44.390 INFO  [http-nio-8081-exec-1][[/].log(DirectJDKLog.java:173)] Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:48:44.392 INFO  [http-nio-8081-exec-1][DispatcherServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+14:48:44.395 INFO  [http-nio-8081-exec-1][DispatcherServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 2 ms
+16:17:41.010 INFO  [File Watcher][LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(LocalDevToolsAutoConfiguration.java:211)] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+16:17:41.235 INFO  [Thread-5][Http11NioProtocol.log(DirectJDKLog.java:173)] Pausing ProtocolHandler ["http-nio-8081"]
+16:17:41.236 INFO  [Thread-5][StandardService.log(DirectJDKLog.java:173)] Stopping service [Tomcat]
+16:17:41.240 INFO  [Thread-5][[/].log(DirectJDKLog.java:173)] Destroying Spring FrameworkServlet 'dispatcherServlet'
+16:17:41.252 INFO  [Thread-5][Http11NioProtocol.log(DirectJDKLog.java:173)] Stopping ProtocolHandler ["http-nio-8081"]
+16:17:41.257 INFO  [Thread-5][Http11NioProtocol.log(DirectJDKLog.java:173)] Destroying ProtocolHandler ["http-nio-8081"]
+16:17:41.262 INFO  [Thread-5][LocalContainerEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:651)] Closing JPA EntityManagerFactory for persistence unit 'default'
+16:17:41.271 INFO  [Thread-5][HikariDataSource.close(HikariDataSource.java:350)] HikariPool-1 - Shutdown initiated...
+16:17:41.284 INFO  [Thread-5][HikariDataSource.close(HikariDataSource.java:352)] HikariPool-1 - Shutdown completed.
+16:17:41.562 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 17676 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+16:17:41.563 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+16:17:42.021 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:17:42.054 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 31 ms. Found 3 JPA repository interfaces.
+16:17:42.349 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+16:17:42.350 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+16:17:42.351 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+16:17:42.351 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+16:17:42.382 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+16:17:42.382 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 814 ms
+16:17:42.434 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-2 - Starting...
+16:17:42.445 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-2 - Start completed.
+16:17:42.485 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+16:17:42.493 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:17:42.513 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+16:17:42.514 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+16:17:42.615 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:17:42.617 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:17:42.925 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:17:43.240 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+16:17:43.254 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+16:17:43.263 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+16:17:43.270 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 1.791 seconds (JVM running for 5352.726)
+16:17:43.276 INFO  [restartedMain][ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)] Condition evaluation unchanged
+16:17:44.684 INFO  [File Watcher][LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(LocalDevToolsAutoConfiguration.java:211)] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+16:17:44.865 INFO  [Thread-7][Http11NioProtocol.log(DirectJDKLog.java:173)] Pausing ProtocolHandler ["http-nio-8081"]
+16:17:44.866 INFO  [Thread-7][StandardService.log(DirectJDKLog.java:173)] Stopping service [Tomcat]
+16:17:44.871 INFO  [Thread-7][Http11NioProtocol.log(DirectJDKLog.java:173)] Stopping ProtocolHandler ["http-nio-8081"]
+16:17:44.874 INFO  [Thread-7][Http11NioProtocol.log(DirectJDKLog.java:173)] Destroying ProtocolHandler ["http-nio-8081"]
+16:17:44.875 INFO  [Thread-7][LocalContainerEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:651)] Closing JPA EntityManagerFactory for persistence unit 'default'
+16:17:44.876 INFO  [Thread-7][HikariDataSource.close(HikariDataSource.java:350)] HikariPool-2 - Shutdown initiated...
+16:17:44.886 INFO  [Thread-7][HikariDataSource.close(HikariDataSource.java:352)] HikariPool-2 - Shutdown completed.
+16:17:44.972 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 17676 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+16:17:44.974 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+16:17:45.167 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:17:45.194 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 26 ms. Found 3 JPA repository interfaces.
+16:17:45.320 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+16:17:45.321 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+16:17:45.322 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+16:17:45.322 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+16:17:45.349 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+16:17:45.349 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 372 ms
+16:17:45.370 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-3 - Starting...
+16:17:45.376 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-3 - Start completed.
+16:17:45.398 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+16:17:45.403 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:17:45.416 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+16:17:45.416 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+16:17:45.457 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:17:45.458 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:17:45.671 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:17:45.775 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+16:17:45.781 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+16:17:45.785 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+16:17:45.792 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 0.848 seconds (JVM running for 5355.248)
+16:17:45.794 INFO  [restartedMain][ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)] Condition evaluation unchanged
+16:19:18.729 INFO  [File Watcher][LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(LocalDevToolsAutoConfiguration.java:211)] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+16:19:18.915 INFO  [Thread-11][Http11NioProtocol.log(DirectJDKLog.java:173)] Pausing ProtocolHandler ["http-nio-8081"]
+16:19:18.915 INFO  [Thread-11][StandardService.log(DirectJDKLog.java:173)] Stopping service [Tomcat]
+16:19:18.920 INFO  [Thread-11][Http11NioProtocol.log(DirectJDKLog.java:173)] Stopping ProtocolHandler ["http-nio-8081"]
+16:19:18.924 INFO  [Thread-11][Http11NioProtocol.log(DirectJDKLog.java:173)] Destroying ProtocolHandler ["http-nio-8081"]
+16:19:18.927 INFO  [Thread-11][LocalContainerEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:651)] Closing JPA EntityManagerFactory for persistence unit 'default'
+16:19:18.928 INFO  [Thread-11][HikariDataSource.close(HikariDataSource.java:350)] HikariPool-3 - Shutdown initiated...
+16:19:18.939 INFO  [Thread-11][HikariDataSource.close(HikariDataSource.java:352)] HikariPool-3 - Shutdown completed.
+16:19:19.061 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 17676 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+16:19:19.061 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+16:19:19.296 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:19:19.314 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+16:19:19.464 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+16:19:19.466 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+16:19:19.466 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+16:19:19.466 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+16:19:19.525 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+16:19:19.528 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 461 ms
+16:19:19.621 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-4 - Starting...
+16:19:19.628 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-4 - Start completed.
+16:19:19.649 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+16:19:19.656 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:19:19.669 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+16:19:19.669 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+16:19:19.703 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:19:19.704 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:19:19.920 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:19:20.021 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+16:19:20.027 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+16:19:20.032 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+16:19:20.038 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 1.029 seconds (JVM running for 5449.495)
+16:19:20.040 INFO  [restartedMain][ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)] Condition evaluation unchanged
+16:25:06.535 INFO  [File Watcher][LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(LocalDevToolsAutoConfiguration.java:211)] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+16:25:06.718 INFO  [Thread-15][Http11NioProtocol.log(DirectJDKLog.java:173)] Pausing ProtocolHandler ["http-nio-8081"]
+16:25:06.719 INFO  [Thread-15][StandardService.log(DirectJDKLog.java:173)] Stopping service [Tomcat]
+16:25:06.727 INFO  [Thread-15][Http11NioProtocol.log(DirectJDKLog.java:173)] Stopping ProtocolHandler ["http-nio-8081"]
+16:25:06.730 INFO  [Thread-15][Http11NioProtocol.log(DirectJDKLog.java:173)] Destroying ProtocolHandler ["http-nio-8081"]
+16:25:06.731 INFO  [Thread-15][LocalContainerEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:651)] Closing JPA EntityManagerFactory for persistence unit 'default'
+16:25:06.732 INFO  [Thread-15][HikariDataSource.close(HikariDataSource.java:350)] HikariPool-4 - Shutdown initiated...
+16:25:06.739 INFO  [Thread-15][HikariDataSource.close(HikariDataSource.java:352)] HikariPool-4 - Shutdown completed.
+16:25:06.829 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 17676 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+16:25:06.830 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+16:25:07.002 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:25:07.023 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+16:25:07.115 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+16:25:07.115 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+16:25:07.116 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+16:25:07.116 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+16:25:07.138 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+16:25:07.139 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 306 ms
+16:25:07.158 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-5 - Starting...
+16:25:07.163 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-5 - Start completed.
+16:25:07.179 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+16:25:07.187 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:25:07.203 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+16:25:07.204 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+16:25:07.235 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:25:07.235 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:25:07.425 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:25:07.516 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+16:25:07.520 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+16:25:07.524 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+16:25:07.527 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 0.729 seconds (JVM running for 5796.984)
+16:25:07.529 INFO  [restartedMain][ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)] Condition evaluation unchanged
+16:30:26.031 INFO  [File Watcher][LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(LocalDevToolsAutoConfiguration.java:211)] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+16:30:26.219 INFO  [Thread-19][Http11NioProtocol.log(DirectJDKLog.java:173)] Pausing ProtocolHandler ["http-nio-8081"]
+16:30:26.219 INFO  [Thread-19][StandardService.log(DirectJDKLog.java:173)] Stopping service [Tomcat]
+16:30:26.223 INFO  [Thread-19][Http11NioProtocol.log(DirectJDKLog.java:173)] Stopping ProtocolHandler ["http-nio-8081"]
+16:30:26.226 INFO  [Thread-19][Http11NioProtocol.log(DirectJDKLog.java:173)] Destroying ProtocolHandler ["http-nio-8081"]
+16:30:26.230 INFO  [Thread-19][LocalContainerEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:651)] Closing JPA EntityManagerFactory for persistence unit 'default'
+16:30:26.231 INFO  [Thread-19][HikariDataSource.close(HikariDataSource.java:350)] HikariPool-5 - Shutdown initiated...
+16:30:26.237 INFO  [Thread-19][HikariDataSource.close(HikariDataSource.java:352)] HikariPool-5 - Shutdown completed.
+16:30:26.325 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 17676 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+16:30:26.325 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+16:30:26.489 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:30:26.503 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 13 ms. Found 3 JPA repository interfaces.
+16:30:26.591 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+16:30:26.592 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+16:30:26.593 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+16:30:26.593 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+16:30:26.614 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+16:30:26.614 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 286 ms
+16:30:26.634 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-6 - Starting...
+16:30:26.642 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-6 - Start completed.
+16:30:26.656 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+16:30:26.661 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:30:26.678 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+16:30:26.678 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+16:30:26.706 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:30:26.706 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:30:26.889 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:30:26.976 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+16:30:26.980 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+16:30:26.985 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+16:30:26.988 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 0.688 seconds (JVM running for 6116.445)
+16:30:26.990 INFO  [restartedMain][ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)] Condition evaluation unchanged
+16:41:23.232 INFO  [http-nio-8081-exec-1][[/].log(DirectJDKLog.java:173)] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:41:23.233 INFO  [http-nio-8081-exec-1][DispatcherServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+16:41:23.234 INFO  [http-nio-8081-exec-1][DispatcherServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 1 ms
+16:47:37.685 INFO  [File Watcher][LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(LocalDevToolsAutoConfiguration.java:211)] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+16:47:37.884 INFO  [Thread-23][Http11NioProtocol.log(DirectJDKLog.java:173)] Pausing ProtocolHandler ["http-nio-8081"]
+16:47:37.884 INFO  [Thread-23][StandardService.log(DirectJDKLog.java:173)] Stopping service [Tomcat]
+16:47:37.886 INFO  [Thread-23][[/].log(DirectJDKLog.java:173)] Destroying Spring FrameworkServlet 'dispatcherServlet'
+16:47:37.889 INFO  [Thread-23][Http11NioProtocol.log(DirectJDKLog.java:173)] Stopping ProtocolHandler ["http-nio-8081"]
+16:47:37.892 INFO  [Thread-23][Http11NioProtocol.log(DirectJDKLog.java:173)] Destroying ProtocolHandler ["http-nio-8081"]
+16:47:37.896 INFO  [Thread-23][LocalContainerEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:651)] Closing JPA EntityManagerFactory for persistence unit 'default'
+16:47:37.897 INFO  [Thread-23][HikariDataSource.close(HikariDataSource.java:350)] HikariPool-6 - Shutdown initiated...
+16:47:37.906 INFO  [Thread-23][HikariDataSource.close(HikariDataSource.java:352)] HikariPool-6 - Shutdown completed.
+16:47:38.009 INFO  [restartedMain][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 17676 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+16:47:38.011 INFO  [restartedMain][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+16:47:38.160 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:47:38.173 INFO  [restartedMain][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 13 ms. Found 3 JPA repository interfaces.
+16:47:38.263 INFO  [restartedMain][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+16:47:38.264 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+16:47:38.264 INFO  [restartedMain][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+16:47:38.266 INFO  [restartedMain][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+16:47:38.287 INFO  [restartedMain][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+16:47:38.287 INFO  [restartedMain][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 273 ms
+16:47:38.303 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-7 - Starting...
+16:47:38.310 INFO  [restartedMain][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-7 - Start completed.
+16:47:38.322 INFO  [restartedMain][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+16:47:38.328 INFO  [restartedMain][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:47:38.342 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+16:47:38.342 WARN  [restartedMain][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+16:47:38.379 INFO  [restartedMain][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:47:38.380 INFO  [restartedMain][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:47:38.572 WARN  [restartedMain][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:47:38.657 INFO  [restartedMain][OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:59)] LiveReload server is running on port 35729
+16:47:38.661 INFO  [restartedMain][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+16:47:38.665 INFO  [restartedMain][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+16:47:38.669 INFO  [restartedMain][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 0.693 seconds (JVM running for 7148.125)
+16:47:38.670 INFO  [restartedMain][ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)] Condition evaluation unchanged
+16:48:56.882 INFO  [http-nio-8081-exec-2][[/].log(DirectJDKLog.java:173)] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:48:56.884 INFO  [http-nio-8081-exec-2][DispatcherServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+16:48:56.885 INFO  [http-nio-8081-exec-2][DispatcherServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 1 ms
+16:48:56.891 WARN  [http-nio-8081-exec-2][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'qnId' for method parameter type int is not present]
+16:49:12.970 WARN  [http-nio-8081-exec-3][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'qnId' for method parameter type int is not present]
+17:51:06.541 WARN  [HikariPool-7 housekeeper][HikariPool.run(HikariPool.java:788)] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1m27s100ms785µs700ns).
+21:06:49.923 WARN  [http-nio-8081-exec-8][DefaultHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208)] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]

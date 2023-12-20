@@ -1,0 +1,26 @@
+20:57:22.627 INFO  [main][QuestionnaireApplication.logStarting(StartupInfoLogger.java:55)] Starting QuestionnaireApplication using Java 11.0.20.1 on LAPTOP-5B8NL692 with PID 12228 (D:\JAVA-eclipse\questionnaire\bin\main started by 均 in D:\JAVA-eclipse\questionnaire)
+20:57:22.633 INFO  [main][QuestionnaireApplication.logStartupProfileInfo(SpringApplication.java:632)] No active profile set, falling back to 1 default profile: "default"
+20:57:23.726 INFO  [main][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:57:23.822 INFO  [main][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+20:57:25.078 INFO  [main][TomcatWebServer.initialize(TomcatWebServer.java:108)] Tomcat initialized with port(s): 8081 (http)
+20:57:25.093 INFO  [main][Http11NioProtocol.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8081"]
+20:57:25.096 INFO  [main][StandardService.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+20:57:25.096 INFO  [main][StandardEngine.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.82]
+20:57:25.339 INFO  [main][[/].log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+20:57:25.339 INFO  [main][ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292)] Root WebApplicationContext: initialization completed in 2618 ms
+20:57:25.537 INFO  [main][HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+20:57:26.547 INFO  [main][HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+20:57:27.248 INFO  [main][LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+20:57:27.371 INFO  [main][Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.6.15.Final
+20:57:27.642 INFO  [main][Version.<clinit>(JavaReflectionManager.java:56)] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20:57:27.843 INFO  [main][Dialect.<init>(Dialect.java:175)] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+20:57:28.333 WARN  [main][RootClass.checkCompositeIdentifier(RootClass.java:287)] HHH000038: Composite-id class does not override equals(): com.example.questionnaire.entity.QuestionId
+20:57:28.333 WARN  [main][RootClass.checkCompositeIdentifier(RootClass.java:290)] HHH000039: Composite-id class does not override hashCode(): com.example.questionnaire.entity.QuestionId
+20:57:28.845 INFO  [main][JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:57:28.858 INFO  [main][LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:437)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:57:29.795 WARN  [main][JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:223)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:57:30.251 INFO  [main][Http11NioProtocol.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8081"]
+20:57:30.300 INFO  [main][TomcatWebServer.start(TomcatWebServer.java:220)] Tomcat started on port(s): 8081 (http) with context path ''
+20:57:30.311 INFO  [main][QuestionnaireApplication.logStarted(StartupInfoLogger.java:61)] Started QuestionnaireApplication in 8.312 seconds (JVM running for 9.359)
+21:52:42.701 WARN  [HikariPool-1 housekeeper][HikariPool.run(HikariPool.java:788)] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m45s364ms910µs300ns).
+22:53:11.789 WARN  [HikariPool-1 housekeeper][HikariPool.run(HikariPool.java:788)] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m58s744ms432µs899ns).

@@ -9,10 +9,22 @@ public enum RtnCode {
 	//不寫NOT FOUND是因為常用在資料庫撈不到資料
 	QUESTIONNAIRE_ID_NOT_FOUND(404,"Questionnaire Is Not Found"),//
 	UPDATE_ERROR(400,"Question Param Error"),//
+	QUESTIONNAIRE_IS_NOT_PUBLISHED(404,"Questionnaire Is Not Publishe"),//
 	;
+	
+	
+	
+	
 	
 	private int code;
 	private String message;
+	
+	
+	
+	
+	
+	
+	
 	//不用建構方法
 	private RtnCode(int code, String message) {
 		this.code = code;

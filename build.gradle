@@ -26,6 +26,8 @@ dependencies {
 	
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	
+	//Hot Deployment
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	//spring boot cache maven
 	implementation 'org.springframework.boot:spring-boot-starter-cache'
 	//Caffeine Cache 

@@ -12,6 +12,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import com.example.questionnaire.entity.Question;
 import com.example.questionnaire.entity.Questionnaire;
 import com.example.questionnaire.vo.QnQuVo;
 import com.example.questionnaire.vo.QuizRes;

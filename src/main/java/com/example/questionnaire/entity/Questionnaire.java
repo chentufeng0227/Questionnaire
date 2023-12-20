@@ -14,7 +14,7 @@ import javax.persistence.Table;
 public class Questionnaire {
 	@Id
 	@Column(name = "id")
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)//¸ê®Æ®w¬°AI
 	private int id;
 	
 	@Column(name = "title")
